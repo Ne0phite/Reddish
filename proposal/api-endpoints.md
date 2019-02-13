@@ -15,7 +15,7 @@ _API Endpoints_
   - gets single user's profile
 - `POST /api/users`
   - Creates new user
-- `PATCH /api/users/:user_id`
+- `PATCH /api/users/username`
   - Allows user to update their profile
 
 # Subreddits
@@ -27,7 +27,7 @@ _API Endpoints_
 
 - `GET /api/subreddits/subreddit_title`
   - gets all posts on a subreddit
-- `GET /api/users/username`
+- `GET /api/users/username/posts`
   - gets all posts from a user
 - `GET /api/subreddits/comments/:user_id/post_title`
   - gets a single post with all comments
@@ -38,6 +38,8 @@ _API Endpoints_
 
 # Comments
 
+- `GET /api/users/username/comments`
+  - gets all comments from a user
 - `GET /api/subreddits/comments/:user_id/post_title`
   - gets a single post with all comments
 - `POST /api/subreddits/comments/:user_id/post_title`

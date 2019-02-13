@@ -5,14 +5,14 @@
 Redditch is a small town in England. It's also a website I'm working on. My website has nothing to do with the English town. It is a clone of Reddit. I will build Redditch using Javascript and React/Redux on the front-end and Express and MySQL on the backend.
 By the end of the production period, this app will, at a minimum, satisfy the following criteria:
 
-- Hosting on Heroku
+- Hosting on a live server
 - New user account creation, login and deleting.
 - Browsing and searching for posts and users by post titles and usernames, respectively.
 - Creating new posts and commenting on other users' posts.
 - Replying to comments.
 - Casting up/down votes on posts/comments
 - Deleting posts/comments that user created.
-- subscribe to subreddits
+- Subscribe to subreddits
 
 # Design Docs
 
